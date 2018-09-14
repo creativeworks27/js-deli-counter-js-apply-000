@@ -18,7 +18,7 @@ var takeANumber = function(katzDeli, Customer) {
         return "The line is currently empty.";
     }
     
-    var customeNumber = [];
+    var customerNumber = [];
     for (var i=0; i<katzDeliLine.length; i++) {
         customerNumber.push(i + 1 + ". " + katzDeliLine[i]);
     }
