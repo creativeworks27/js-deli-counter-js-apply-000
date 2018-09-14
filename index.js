@@ -18,11 +18,11 @@ var takeANumber = function(katzDeli, Customer) {
         return "The line is currently empty.";
     }
     
-    var customerAndNumber = [];
+    var customeNumber = [];
     for (var i=0; i<katzDeliLine.length; i++) {
-        customerAndNumber.push(i + 1 + ". " + katzDeliLine[i]);
+        customerNumber.push(i + 1 + ". " + katzDeliLine[i]);
     }
     
-    return "The line is currently: " + customerAndNumber.join(", ");
+    return "The line is currently: " + customerNumber.join(", ");
 };
  
