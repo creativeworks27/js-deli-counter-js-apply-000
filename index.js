@@ -1,5 +1,5 @@
-function takeANumber(people,name) {
- 
+function takeANumber(katzDeliLine,name) {
+ if (katzDeliLine = 0)
   
   
 }
