@@ -10,8 +10,8 @@ var takeANumber = function(katzDeli, Customer) {
         return 'There is nobody waiting to be served!'; 
      }
  
-    var customer = katzDeliLine.shift(); 
-        return "Currently serving " + customer + "."; 
+    var servingcustomer = katzDeliLine.shift(); 
+        return "Currently serving " + servingcustomer + "."; 
 }
  var currentLine = function (katzDeliLine) {
      if (katzDeliLine.length===0) {
