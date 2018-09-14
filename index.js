@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine,name) {
- if (katzDeliLine.lengh > 0)
+ if (katzDeliLine.lenght > 0)
   
   
 }
